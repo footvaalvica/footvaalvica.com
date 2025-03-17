@@ -1,0 +1,18 @@
+name: Trigger Nix Config Update
+
+on:
+  workflow_dispatch:     # Allow manual triggering
+  push:
+    branches: [ main ]  # Adjust if you use a different default branch
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger workflow in nix-config repo
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/footvaalvica/nix-config/dispatches \
+          -d '{"event_type": "website-update", "client_payload": {"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}}'
