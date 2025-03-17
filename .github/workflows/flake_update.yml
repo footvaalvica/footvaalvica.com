@@ -1,6 +1,7 @@
 name: Trigger Nix Config Update
 
 on:
+  workflow_dispatch:     # Allow manual triggering
   push:
     branches: [ main ]  # Adjust if you use a different default branch
 
