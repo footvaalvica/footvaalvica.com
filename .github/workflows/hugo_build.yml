@@ -9,13 +9,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly set write permission for the GITHUB_TOKEN
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -26,12 +28,15 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          name: website
-          path: ./public
-          retention-days: 5
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # This token is automatically provided by GitHub
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true  # Creates a new history for the gh-pages branch
+          
       - name: Trigger workflow in nix-config repo
         run: |
           curl -X POST \
