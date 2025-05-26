@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://www.footvaalvica.com/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 17 Mar 2025 22:26:17 +0000</lastBuildDate><atom:link href="https://www.footvaalvica.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://www.footvaalvica.com/posts/my-first-post/</link><pubDate>Mon, 17 Mar 2025 22:26:17 +0000</pubDate><guid>https://www.footvaalvica.com/posts/my-first-post/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This is &lt;strong>bold&lt;/strong> text, and this is &lt;em>emphasized&lt;/em> text.&lt;/p>
+&lt;p>Visit the &lt;a href="https://gohugo.io">Hugo&lt;/a> website!&lt;/p>
+&lt;p>Hello!&lt;/p>
+&lt;p>I am just testing out stuff! This is probably safe to ignore :P&lt;/p>
+&lt;h3 id="helooo">HELOOO&lt;/h3></description></item><item><title/><link>https://www.footvaalvica.com/posts/thesis-task-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.footvaalvica.com/posts/thesis-task-list/</guid><description>&lt;h1 id="lista-de-tarefas-de-teste">Lista de Tarefas de Teste&lt;/h1>
+&lt;h2 id="1-criação-de-conta-e-início-de-sessão">1. Criação de Conta e Início de Sessão&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Registar uma nova conta de utilizador e verificar se o registo foi bem-sucedido.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Terminar sessão da conta recém-criada.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Iniciar sessão novamente utilizando as credenciais da conta criada no primeiro passo. Verificar se o login foi bem-sucedido.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Explorar a Barra Superior:
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identificar e clicar em cada item do menu ou ícone disponível.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verificar se cada clique conduz à página esperada ou aciona a ação correta.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Voltar ao painel principal (dashboard).  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Aceder à página de Perfil, escolher o idioma preferido e verificar se &amp;ldquo;Palavras Conhecidas&amp;rdquo; está a zero.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-gestão-de-baralhos-e-cartões">2. Gestão de Baralhos e Cartões  &lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Criar um novo Tipo de Cartão por defeito que será usado no Baralho de Teste.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Criar um novo Tipo de Baralho para explorar as funcionalidades disponíveis.
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Adicionar um novo campo chamado &amp;ldquo;Kanji&amp;rdquo;.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Selecionar um tipo de cartão e tentar alterar o campo principal (ex.: de &amp;ldquo;Frente&amp;rdquo; para &amp;ldquo;Kanji&amp;rdquo;).  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Tentar modificar um modelo de cartão para um tipo específico de cartão (ex.: alterar o tamanho ou a cor da fonte de um campo).  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Criar um novo baralho.
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Atribuir um nome único ao baralho (ex.: &amp;ldquo;O Meu Baralho de Teste - [Data]&amp;rdquo;).  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Adicionar manualmente entre 3 a 5 cartões de exemplo a este novo baralho, utilizando o Tipo de Cartão por defeito, com frente e verso distintos.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verificar se o baralho foi criado e aparece na lista de baralhos com a contagem de cartões correta.  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Tentar importar um baralho do Anki.
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Importar o baralho de testes do Anki &lt;a href="https://ankiweb.net/shared/info/523650169">Ultimate JLPT N5 Vocabulary Deck v1.3&lt;/a> que será usado nas sessões de estudo mais tarde.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Se possível, tentar importar outros baralhos do Anki e verificar se foram importados com sucesso.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-sessão-de-estudo">3. Sessão de Estudo&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Navegar até à secção de estudo e iniciar uma sessão utilizando o baralho &lt;em>Ultimate JLPT N5 Vocabulary Deck v1.3&lt;/em>.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Completar uma sessão (por defeito, 20 itens).  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Para cada item, observar e verificar que:
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Existe apresentação clara do conteúdo da frente do cartão.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Há exibição correta do conteúdo do verso do cartão após ser revelado. &lt;em>Para cartões importados, se possível, importar o baralho para o Anki e anotar quaisquer diferenças de forma ou funcionalidade. Para baralhos criados pelo utilizador, verificar se corresponde à Pré-visualização do Modelo no Editor de Modelos de Cartão.&lt;/em>  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Qualquer sistema de pontuação ou indicador de progresso atualiza corretamente.  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Após terminar as sessões, ir a Perfil -&amp;gt; Palavras Conhecidas e verificar se as palavras revistas foram adicionadas.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Se possível, rever outros baralhos, importados ou criados por ti. Nota: se as palavras que desejas adicionar à tabela de Palavras Conhecidas não estiverem no Campo Principal, não serão adicionadas.&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-seleção-de-personagem--conversação">4. Seleção de Personagem &amp;amp; Conversação&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Navegar até ao ecrã de seleção de personagem.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Clicar no botão &amp;ldquo;Configurar&amp;rdquo; para ver a personalidade da personagem antes de falar com ela.  
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Iniciar uma conversa com a personagem selecionada (ex.: clicar em &amp;ldquo;Iniciar Conversa&amp;rdquo; ou &amp;ldquo;Chat&amp;rdquo;).  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verificar se a interface de conversação carrega corretamente, mostrando o texto do diálogo.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Avançar por pelo menos 5-7 trocas de diálogo.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Para cada linha de diálogo com áudio associado, ouvir o áudio gerado.
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Verificar se o áudio é reproduzido claramente.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verificar se o conteúdo áudio corresponde ao texto apresentado.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Anotar quaisquer atrasos, distorções ou discrepâncias significativas no áudio.  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Durante a conversa, passar o cursor sobre diferentes palavras e:
+   - [ ] Para pelo menos 1 palavra, tentar ver a definição. Verificar se a informação é apresentada corretamente.  
+   - [ ] Para pelo menos 1 palavra, tentar marcá-la como &amp;ldquo;conhecida&amp;rdquo; ou &amp;ldquo;aprendida&amp;rdquo;. Verificar se a alteração é refletida indo a Perfil -&amp;gt; Palavras Conhecidas.  
+   - [ ] Para pelo menos 1 palavra, tentar marcá-la como &amp;ldquo;desconhecida&amp;rdquo; ou &amp;ldquo;a aprender&amp;rdquo;. Verificar se a alteração é refletida indo a Perfil -&amp;gt; Palavras Conhecidas.  &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Alterar a personalidade da personagem clicando no botão Configurar. Torná-la, por exemplo, exageradamente risonha ou excessivamente irritante.  &lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Guardar as alterações e falar novamente com a personagem, observando como a personalidade mudou.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>[!NOTE]
+Antes de dares o teu feedback, sente-te à vontade para tentar &amp;ldquo;quebrar&amp;rdquo; a aplicação e explorar todas as funcionalidades disponíveis.&lt;/p></description></item></channel></rss>
